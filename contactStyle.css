@@ -1,9 +1,9 @@
 .navbar {
-  background: rgb(195, 255, 159);
+  background: #6acd3c;
   background: linear-gradient(
     90deg,
-    rgba(195, 255, 159, 1) 0%,
-    rgba(3, 68, 26, 1) 100%
+    #94d079 0%,
+    #49ad1b 100%
   );
 }
 
@@ -24,12 +24,7 @@
 }
 
 .container-promo {
-  background: rgb(195, 255, 159);
-  background: linear-gradient(
-    90deg,
-    rgba(195, 255, 159, 1) 0%,
-    rgba(3, 68, 26, 1) 100%
-  );
+  background: #6acd3c;
   padding-top: 5%;
 }
 
@@ -73,11 +68,8 @@
     left: 1.25rem;
 }
 
-button{
-  background: linear-gradient(
-    90deg,
-    rgba(195, 255, 159, 1) 0%,
-    rgb(34, 232, 103) 100%
-  );
-  border: none !important;
+button:hover {
+  background: #6acd3c !important;
+  color: white !important;
+  font-weight: 600;
 }
